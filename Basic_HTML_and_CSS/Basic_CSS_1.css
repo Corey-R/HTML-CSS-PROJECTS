@@ -1,0 +1,23 @@
+h1 {color: darkorchid; text-align: center;}
+
+h2 {color: orchid; text-align: center;}
+
+p {color: blueN;}
+ 
+.style_1 {
+	background-color: darkred;
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: extra-large;
+	text-align: center
+}
+
+.style_2 {
+	background-color: brown;
+	color: powderblue;
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+}
+	
