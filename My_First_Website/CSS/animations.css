@@ -9,7 +9,7 @@
     display: inline;
     margin: 0% auto;
     padding: 0;
-    list-style: none;
+    list-style-type: none;
     text-decoration: none;
 }
 
@@ -24,6 +24,7 @@
     box-shadow: 2px 2px 10px 0 rgba (0,0,0,0.5);
     border-radius: 6px;
     /* background-color: #052134; */
+    
     cursor: pointer;
     transition-property: background;
     transition-duration: .4s;

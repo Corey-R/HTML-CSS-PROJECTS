@@ -110,7 +110,7 @@ section {
 .navbar:after {
     clear: both; 
     display: table;
-    content: " ";
+    content: "";
 }
 
 .wrap {
@@ -129,7 +129,7 @@ section {
 .menu-container {
     max-height: 340px;
     margin: 0% auto;
-    content: " ";
+    content: "";
     /* top: 0;
     left: 0; */
     /* position absolute */ 

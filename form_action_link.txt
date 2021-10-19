@@ -1,0 +1,16 @@
+https://formspree.io/f/moqyzeqe
+
+Place above link in your action attribute when making a form in html. 
+method will still be post and ensure there is a name attribute. 
+
+r98tlxkuafpn
+
+Above is your cPanel login to your hosting account. 
+Password will be added once reset.
+
+208.109.65.62
+creid@coreportfolio.com
+#=wvL%]vtj}x
+
+The above credentials are your username and password to connect to your remote
+FTP hosting server. 
