@@ -2,9 +2,11 @@
 <html lang="en">
 <head> 
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title> Toon Blast Tournament </title>
 	<link rel="stylesheet" type="text/css" href="./CSS/one_page_website.css">
 	<link rel="stylesheet" type="text/css" href="./CSS/one_page_animations.css">
+	<script src="JS/Model_Example.js" defer></script>
 </head> 
 <body> 
 
@@ -43,124 +45,123 @@
 	</div> 
 	<!-- END HOME -->
 	
-	<!-- GALLERY --> 
-	<section id="gallery"> 
-		<div class="container">
-			<h1> Gallery </h1> 
-			<div class="flex-container"> 
-			
-				<!-- PHOTO CONTAINER 1 -->
-				<div class="photo-container">
-					<div class="photo">
-						<img src="./images/img_1.jpg" width="100" height="100" alt="Rocket Photo">
-						<div class="photo-overlay">
-							<h3> Rocket </h3>
-							<p> Destroys one 2-D line </p>
-						</div>
-					</div>
-				</div>
-				<!-- END PHOTO CONTAINER 1 -->
-				
-				<!-- PHOTO CONTAINER 2 -->
-				<div class="photo-container">
-					<div class="photo">
-						<img src="./images/img_2.jpg" width="100" height="100" alt="Bomb Photo">
-						<div class="photo-overlay">
-							<h3> Bomb </h3>
-							<p> Destroys 9 nearby color tiles</p>
-						</div>
-					</div>
-				</div>
-				<!-- END PHOTO CONTAINER 2 -->
-				
-				<!-- PHOTO CONTAINER 3 -->
-				<div class="photo-container">
-					<div class="photo">
-						<img src="./images/img_3.jpg" width="100" height="100" alt="Disco Ball Photo">
-						<div class="photo-overlay">
-							<h3> Special Disco Ball </h3>
-							<p> Removes all associated colors from puzzle</p>
-						</div>
-					</div>
-				</div>
-				<!-- END PHOTO CONTAINER 3 -->
-				
-				<!-- PHOTO CONTAINER 4 -->
-				<div class="photo-container">
-					<div class="photo">
-						<img src="./images/img_4.jpg" width="100" height="100" alt="Hammer Photo">
-						<div class="photo-overlay">
-							<h3> Hammer </h3>
-							<p> Destroys one spot of your choosing </p>
-						</div>
-					</div>
-				</div>
-				<!-- END PHOTO CONTAINER 4 -->
-				
-				<!-- PHOTO CONTAINER 5 -->
-				<div class="photo-container">
-					<div class="photo">
-						<img src="./images/img_5.jpg" width="100" height="100" alt="Punching Glove Photo">
-						<div class="photo-overlay">
-							<h3> Punching Glove </h3>
-							<p> Removes one row of your choosing</p>
-						</div>
-					</div>
-				</div>
-				<!-- END PHOTO CONTAINER 5 -->
-				
-				<!-- PHOTO CONTAINER 6 -->
-				<div class="photo-container">
-					<div class="photo">
-						<img src="./images/img_6.jpg" width="100" height="100" alt="Anvil Photo">
-						<div class="photo-overlay">
-							<h3> Anvil </h3>
-							<p> Destroys one column of your choosing </p>
-						</div>
-					</div>
-				</div>
-				<!-- END PHOTO CONTAINER 6 -->
-				
-				<!-- PHOTO CONTAINER 7 -->
-				<div class="photo-container">
-					<div class="photo">
-						<img src="./images/img_7.jpg" width="100" height="100" alt="Dice Photo">
-						<div class="photo-overlay">
-							<h3> Dice </h3>
-							<p> Shuffles all color tiles on puzzle </p>
-						</div>
-					</div>
-				</div>
-				<!-- END PHOTO CONTAINER 7 -->
-				
-				<!-- PHOTO CONTAINER 8 -->
-				<div class="photo-container">
-					<div class="photo">
-						<img src="./images/img_8.jpg" width="100" height="100" alt="Star Tournament Photo">
-						<div class="photo-overlay">
-							<h3> Star Tournament </h3>
-							<p> Individual tournament</p>
-						</div>
-					</div>
-				</div>
-				<!-- END PHOTO CONTAINER 8 -->
-				
-				<!-- PHOTO CONTAINER 9 -->
-				<div class="photo-container">
-					<div class="photo">
-						<img src="./images/img_9.png.crdownload" width="100" height="100" alt="Team Tournament Photo">
-						<div class="photo-overlay">
-							<h3> Team Tournament</h3>
-							<p> Teams compete for amazing rewards! </p>
-						</div>
-					</div>
-				</div>
-				<!-- END PHOTO CONTAINER 8 -->
-				
-			</div>
-		</div>
-	</section>
-	<!-- END GALLERY -->
+	<!-- PHOTO GALLERY -->
+
+	<h1> Lightbox Model Test </h1>
+
+        <div class="row">
+            <div class="column">
+              <img src="./images/img_1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="./images/img_2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="./images/img_3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="./images/img_4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="./images/img_5.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="./images/img_6.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="./images/img_7.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="./images/img_8.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="./images/img_9.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+          </div>
+          
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+          
+              <div class="mySlides">
+                <div class="numbertext">1 / 9</div>
+                <img src="./images/img_1.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">2 / 9</div>
+                <img src="./images/img_2.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">3 / 9</div>
+                <img src="./images/img_3.jpg" style="width:100%">
+              </div>
+              
+              <div class="mySlides">
+                <div class="numbertext">4 / 9</div>
+                <img src="./images/img_4.jpg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">5 / 9</div>
+                <img src="./images/img_5.jpg" style="width:100%">
+            </div>
+             <div class="mySlides">
+                <div class="numbertext">6 / 9</div>
+                <img src="./images/img_6.jpg" style="width:100%">
+            </div>
+             <div class="mySlides">
+                <div class="numbertext">7 / 9</div>
+                <img src="./images/img_7.jpg" style="width:100%">
+            </div>
+             <div class="mySlides">
+                <div class="numbertext">8 / 9</div>
+                <img src="./images/img_8.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">9 / 9</div>
+                <img src="./images/img_9.png" style="width:100%">
+            </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+          
+          
+                <div class="column">
+                    <img class="demo cursor" src="./images/img_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Rocket">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="./images/img_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Bomb">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="./images/img_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Special Disco Ball">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="./images/img_4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Hammer">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="./images/img_5.jpg" style="width:100%" onclick="currentSlide(4)" alt="Punching Glove">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="./images/img_6.jpg" style="width:100%" onclick="currentSlide(4)" alt="Anvil">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="./images/img_7.jpg" style="width:100%" onclick="currentSlide(4)" alt="Dice">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="./images/img_8.jpg" style="width:100%" onclick="currentSlide(4)" alt="Star Tournament">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="./images/img_9.png" style="width:100%" onclick="currentSlide(4)" alt="Team Tournament">
+                </div>
+            </div>
+          </div>
+
+	<!-- END PHOTO GALLERY -->
 	
 	<!-- ENTER NOW -->
 	<section id="enter_now">
@@ -199,6 +200,7 @@
 		www.blasttournament.com &nbsp;| &copy; &nbsp; 2021
 	</div>
 	<!-- END FOOTER -->
+	
 	
 </body>
 </html>	
