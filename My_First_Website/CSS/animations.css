@@ -37,6 +37,16 @@
     background-color: cornsilk;
     border: 2px solid darkorchid;
 }
+.navLink {
+	text-decoration: none;
+	color: lightgreen;
+	font-weight: bold;
+}
+.navLink:hover {
+	color: darkorchid;
+	font-size: 20px;
+	font-weight: bolder;
+}
 
 /*====================================================================
     GALLERY SECTION ANIMATION
